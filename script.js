@@ -33,6 +33,30 @@ addHoverEffect(
   "#award_ui > div.award_ui_mid_pics > div > div.award_ui_mid_pics_right > div.award_ui_mid_pics_right_bottom > div.mid-dark-overlay"
 );
 
+const midLeft = document.querySelector(
+  "#award_ui > div.award_ui_mid_pics > div > div.award_ui_mid_pics_left"
+);
+
+const midRightTop = document.querySelector(
+  "#award_ui > div.award_ui_mid_pics > div > div.award_ui_mid_pics_right > div.award_ui_mid_pics_right_top"
+);
+
+const midRightBottom = document.querySelector(
+  "#award_ui > div.award_ui_mid_pics > div > div.award_ui_mid_pics_right > div.award_ui_mid_pics_right_bottom"
+);
+
+midLeft.addEventListener("click", () => {
+  window.open("https://blenderstudio.cn/zh-hant/welcome/", "_blank");
+});
+
+midRightTop.addEventListener("click", () => {
+  window.open("https://awnchina.cn/", "_blank");
+});
+
+midRightBottom.addEventListener("click", () => {
+  window.open("https://iaicc.tech/en/2024/", "_blank");
+});
+
 // DOM
 // Modal - 1
 const modal_1 = document.querySelector(

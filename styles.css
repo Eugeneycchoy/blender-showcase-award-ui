@@ -370,6 +370,7 @@ body {
   > div.award_ui_mid_pics_right
   > div.award_ui_mid_pics_right_bottom {
   position: relative;
+  cursor: pointer;
 }
 
 .mid-dark-overlay {
@@ -573,6 +574,15 @@ body {
   left: 0;
   z-index: 10;
   opacity: 0.5;
+}
+
+#carouselExampleIndicators p {
+  font-weight: 400;
+}
+
+#carouselExampleIndicators a {
+  font-weight: 900;
+  color: white;
 }
 
 @media (max-width: 1343px) {
